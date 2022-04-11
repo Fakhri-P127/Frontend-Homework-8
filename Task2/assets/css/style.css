@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+header {
+  margin-bottom: 80px;
+  /* width: 50%; */
+}
+
+header .info .info-title h1 {
+  font-size: 50px;
+  margin-bottom: 25px;
+}
+header .info .info-title span {
+  font-size: 50px;
+}
+
+.info-border {
+  width: 140px;
+  height: 2.5px;
+  margin-bottom: 25px;
+  background-image: linear-gradient(to right, green, blue, purple, red, orange);
+}
+.about {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about .photo img {
+  width: 208px;
+  /* height: 100%; */
+}
+.box-info {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.box-title {
+  padding: 30px;
+}
+
+.box-title h2 {
+  margin-bottom: 20px;
+}
