@@ -15,7 +15,6 @@ body {
 
 header {
   margin-bottom: 80px;
-  /* width: 50%; */
 }
 
 header .info .info-title h1 {
@@ -39,7 +38,6 @@ header .info .info-title span {
 
 .about .photo img {
   width: 208px;
-  /* height: 100%; */
 }
 .box-info {
   display: flex;
